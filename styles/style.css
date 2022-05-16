@@ -1,20 +1,64 @@
 @import url('https://rsms.me/inter/inter.css');
+:root { 
+    --indexPagePadding : 40px;
+    --backgroundColor : #54BAB9;
+    --blackLatter: #423A3A;
+    --framingBackground: #FBF8F1;
+}
+*{
+    border-style: none;
+}
 
-* {
-    padding: 0;
-    margin: 0;
-    font-family: 'Inter', sans-serif;
+html{
+ height: auto;   
+ background-color: var(--backgroundColor)
 }
 
 .row{
-    padding: 50px;
+    padding: var(--indexPagePadding);
     margin: auto;
-}
-#gameTittle{
     justify-content: center;
 }
-#startButton, #addWordButton, .trys {
+#gameTittle{
+    width: auto;
     margin: auto;
-
+    color: var(--backgroundColor);
+    -webkit-text-stroke: .25px var(--blackLatter);
+    justify-content: center;
+}
+#gameTittleBack {
+    width: 400px;
+    background-color: var(--framingBackground);
+    border-radius: 30px;
+}
+.textThrough{
+    text-decoration:line-through var(--blackLatter)
+}
+.gameTittle{
+    display: flex;  
+    justify-content: center;
+    text-decoration:line-through;
 }
 
+#labelTrys{
+    align-self: center;
+    color: var(--blackLatter);
+    width: auto;
+}
+#inputTrys{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border-style: none;
+    color: var(--blackLatter);
+    background-color: var(--framingBackground);
+}
+
+
+#startButton, #addWordButton{
+    margin:var(--indexPagePadding) auto;
+
+}
+.firstPage{
+margin: auto;
+}

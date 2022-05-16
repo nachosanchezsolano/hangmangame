@@ -4,21 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/gridboostrap.css">
+    <link rel="stylesheet" href="styles/style.css">
+
     <title></title>
 </head>
 <body>
-    <section class="containter">
+    <section class="containter firstPage">
 
-    <title class="row" id="gameTittle">Hangman Game <br> Same Game, Other Name</title>
+    <h1 class="row" id="gameTittleBack">
+        <div id="gameTittle" class="textThrough">Hangman Game</div>
+        <br>
+        <div id="gameTittle"> Same Game, Other Name</div>
+        </h1>
 
-    <div class="row trys"> 
-        <label for="trys" class="col-6" id="labelTrys"> Número de intentos</label>
-        <input type="text" class="col-6" id="inputTrys" name="trys" value="5"> 
+    <div class="row"> 
+        <label for="trys" class="col-4" id="labelTrys"> Número de intentos:</label>
+        <input type="text" class="col-4" id="inputTrys" name="trys" value="5"> 
     </div>
     
-    
+
     <button onclick="startGame()" class="row" id="startButton">Iniciar Juego</button>
     <button onclick="addWord()" class=" row" id="addWordButton">agregar nueva palabra</button>
         
