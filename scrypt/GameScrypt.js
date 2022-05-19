@@ -1,0 +1,1 @@
+var gameWords=[Freak, Pensamiento, Comadreja, Metro, Escalera, Depender, Barba, Apocalíptico, Habilidad, Favor, Shun, Cultivo, Barcos, Bip, Amistad, Canguro, Aguja, Bre athe, Puro, Máscara de gas, Personal, Envidiar, Nuclear, Dramático, Freno, Necesidad, Más fácil, Racial, Impulsar, Agente, Convencer, Tripulación, Raro, Aritmética, Social, Producción, Parásito, Idiota, Norma ]
